@@ -38,6 +38,19 @@
 	background-color: #2c2c2c;
 }
 
+h3{
+	font-family: "AvenirNextLTPro-Regular";
+	font-weight: bold;
+	font-size: 24px;
+	color: #5b5b5f;
+}
+
+p{
+	font-family: "AvenirNextLTPro-Regular";
+	font-size: 18px;
+	color: #5b5b5f;
+}
+
 /*********** HEADER ***********/
 
 .logo{
@@ -120,7 +133,6 @@
 .slogan h3{
 	font-size: 30px;
 	color: #5b5b5f;
-	margin-bottom: 30px;
 	font-weight: bold;
 	font-family: "Barion-Regular";
 }
@@ -236,22 +248,27 @@
 
 .info-contacto-origen{
 	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .info-contacto-origen .info-contacto-img{
-	border: 1px solid black;
 	width: 56px;
 }
 
 .info-contacto-origen .info-contacto-text{
-	border: 1px solid black;
 	width: 200px;
 	height: 58px;
-	padding-left: 15px;
+	padding-left: 20px;
+	display: table;
 }
 
 .info-contacto-origen .info-contacto-text span{
-	position:absolute;
+	vertical-align: middle;
+    display: table-cell;
+    font-family: "AvenirNextLTPro-Regular";
+	font-weight: bold;
+	color: #5b5b5f;
+	font-size: 16px;
 }
 
 /*********** QUERIES ***********/
