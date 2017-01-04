@@ -11,7 +11,9 @@
 	    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 	    <link rel="stylesheet" href="css/normalize/normalize.css">
 	    <link rel="stylesheet" href="css/base.css">
+	    <link rel="stylesheet" href="css/responsive.css">
 	    <link rel="stylesheet" href="css/color.css">
+	    <link rel="stylesheet" href="css/menu.css">
 	    <link rel="stylesheet" href="css/style.css">
 
 	    <!--CAROUSEL-->
@@ -23,18 +25,19 @@
 	<body>
 
 		<div id="wrapper">
+			<a id="open-menu" href="#"><img src="image/btn-responsive-menu.png"></a>
 			<div class="width-full">
 				<div class="bg-darkgray">
 					<div class="width-primary">
 						<div id="header">
 							<div class="row">
-								<div class="col-md-3">
+								<div class="col-md-3 text-sm-center text-xs-center">
 									<div id="logo_head">
 										<img src="image/logo.png" alt="">
 									</div>
 								</div>
 								<div class="col-md-9">
-									<div id="menu_principal">
+									<div id="menu_principal" class="text-sm-center text-xs-center">
 										<ul>
 											<li><a href="#">origen</a><div class="uppercase-menu"></div></li>
 											<li><a href="#">nosotros</a><div class="uppercase-menu"></div></li>
@@ -257,6 +260,7 @@
 
 		<script>
 			$(function(){
+				 
 				$('#menu_principal ul li').hover(function(){
 					$(this).find('.uppercase-menu').css('width', '100%');
 				}, function(){

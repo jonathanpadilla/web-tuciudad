@@ -1,0 +1,39 @@
+@media only screen and (max-width: 767px)
+{/* xs */
+	#menu_principal{
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{/* sm */
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{/* md */
+
+}
+
+@media only screen and (min-width: 1200px)
+{/* lg */
+
+}
+
+/*personalizados*/
+@media only screen and (max-width: 991px)
+{
+	#menu_principal{
+		height: 30px !important;
+	}
+
+	#menu_principal ul{
+		position: initial !important;
+		margin-top: 35px !important;
+	}
+}
+
+@media only screen and (max-width: 1199px)
+{
+
+}

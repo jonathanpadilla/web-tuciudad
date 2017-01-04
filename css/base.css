@@ -30,3 +30,35 @@
 .space-100{
 	height: 100px;
 }
+
+@media only screen and (max-width: 767px)
+{/* xs */
+	.text-xs-left { text-align: left; }
+    .text-xs-right { text-align: right; }
+    .text-xs-center { text-align: center; }
+    .text-xs-justify { text-align: justify; }
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{/* sm */
+	.text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px)
+{/* md */
+	.text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+}
+
+@media only screen and (min-width: 1200px)
+{/* lg */
+	.text-lg-left { text-align: left; }
+    .text-lg-right { text-align: right; }
+    .text-lg-center { text-align: center; }
+    .text-lg-justify { text-align: justify; }
+}
