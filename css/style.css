@@ -1,0 +1,333 @@
+@font-face {
+    font-family: AvenirNextLTProRegular;
+    src: url(../fonts/AvenirNextLTPro-Regular.woff);
+}
+
+@font-face {
+    font-family: BariolRegular;
+    src: url(../fonts/Bariol.woff);
+}
+
+h1{
+	font-family: BariolRegular;
+	font-size: 80px;
+	margin: 0;
+}
+
+h3{
+	font-size: 30px;
+}
+
+h4{
+	font-size: 20px;
+}
+
+span{
+	font-family: AvenirNextLTProRegular;
+    color: #555555;
+    font-size: 15px;
+}
+
+p{
+	font-family: AvenirNextLTProRegular;
+    color: #555555;
+    font-size: 16px;
+}
+
+#wrapper{
+	background-color: #f2f3f5;
+}
+
+#header{
+	padding: 60px 0 30px 0;
+}
+
+#menu_principal{
+    position: relative;
+    height: 90px;
+}
+
+#menu_principal ul{
+	position: absolute;
+    right: 0;
+    bottom: 0;
+    display: block;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    margin: 0;
+}
+
+#menu_principal ul li{
+	display: inline-block;
+    margin-left: 25px;
+    position: relative;
+    text-align: center;
+}
+
+#menu_principal ul li a{
+	font-family: AvenirNextLTProRegular;
+	text-decoration: none;
+	color: #f2f3f4;
+}
+
+.uppercase-menu{
+	width: 0%;
+    margin: auto;
+    height: 2px;
+    background: #f2f3f4;
+    transition: width 0.2s;
+}
+
+.marco-imagen{
+	display: inline-block;
+    box-shadow: 1px 1px 3px #696969;
+    padding: 4px;
+    margin-bottom: 30px;
+}
+
+.estadisticas ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.estadisticas ul li{
+	display: inline-block;
+    margin: 0px 35px;
+}
+
+.line{
+	width: 40px;
+    height: 4px;
+    margin: auto;
+}
+
+.uppercase-menu{
+	position: relative;
+}
+
+.list-1{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.list-1 ul{
+	list-style: none;
+	padding:0;
+}
+
+.list-1 ul li{
+	display: inline-block;
+    font-family: AvenirNextLTProRegular;
+    color: #5d5d5f;
+    font-size: 28px;
+}
+
+.vertical-line{
+	width: 3px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.img-icono{
+	margin-right: 20px;
+}
+
+.text-icono-contacto{
+	display: inline-block;
+	width:200px;
+}
+
+.img-icono2{
+	margin-right: 0;
+	margin-top: 10px;
+}
+
+.text-icono-contacto2{
+	display: inline-block;
+	width:130px;
+	vertical-align: middle;
+}
+.text-icono-contacto2 span{
+	font-family: AvenirNextLTProRegular;
+	font-size: 20px;
+}
+
+.font-primary{
+	font-family: AvenirNextLTProRegular;
+	color: #58585a;
+}
+
+.box-radius{
+	background-color: #fff;
+    padding: 15px 10px;
+    border-radius: 20px;
+    position: relative;
+    margin-top: 55px;
+}
+
+.box-radius img{
+	position: absolute;
+	position: absolute;
+    top: -49px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.iconos-footer ul{
+	list-style: none;
+	padding: 0;
+}
+
+.iconos-footer ul li{
+	display: inline-block;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.logo-footer{
+	margin-top: 10px;
+}
+
+.logo-footer span{
+	font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-nosotros h2{
+	display: inline-block;
+	color: #57ade0;
+	font-family: BariolRegular;
+	font-size: 40px;
+}
+
+.texto-nosotros p{
+	margin-top: 20px;
+}
+
+.separador{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.separador h1{
+	font-size: 48px;
+	color: #fff;
+}
+
+.imagen-persona{
+	margin-bottom: 50px;
+}
+
+.imagen-persona h3, .imagen-persona span{
+	color: #656668;
+	font-family: BariolRegular;
+	font-size: 25px;
+}
+
+.list-2{
+	text-align: center;
+}
+
+.list-2 ul{
+	list-style: none;
+	padding: 0;
+}
+
+.list-2 ul li{
+	display: inline-block;
+	margin: 0 20px;
+}
+.list-2 ul li span{
+	font-family: BariolRegular;
+	font-size: 20px;
+	margin-top:10px;
+}
+
+.btn-cotizar{
+	position: relative;
+}
+
+.btn-cotizar img{
+	position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -70px;
+}
+
+.btn-cotizar a{
+	background-color: #fff;
+    padding: 25px 96px;
+    color: #5b5b5f;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: BariolRegular;
+    text-decoration: none;
+}
+
+#bg-mapa{
+	padding: 5px;
+    background-image: url(../image/background-mapa.png);
+    border-radius: 13px;
+}
+
+#mapa{
+	height: 300px;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+#content-contacto{
+	max-width: 600px;
+    margin: auto;
+}
+
+#content-contacto input, #content-contacto textarea{
+	width: 100%;
+    padding: 6px;
+    border-radius: 8px;
+}
+
+#content-contacto label{
+	font-family: BariolRegular;
+	font-size: 22px;
+	margin-top: 10px;
+}
+
+.borde-yellow{
+	border: 3px solid #e4b032;
+}
+
+.borde-green{
+	border: 3px solid #04a070;
+}
+
+.borde-blue{
+	border: 3px solid #58abdd;
+}
+
+.borde-red{
+	border: 3px solid #e94e4c;
+}
+
+#content-contacto input, #content-contacto textarea{
+	outline:0px;
+}
+
+.btn-enviar{
+	background: #ea833f;
+    color: #fff;
+    padding: 17px 40px;
+    border: 0;
+    border-radius: 7px;
+    font-family: BariolRegular;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}

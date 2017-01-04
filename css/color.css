@@ -1,0 +1,57 @@
+/*background*/
+.bg-darkgray{
+	background-color: #2c2c2c;
+}
+
+.bg-gray{
+	background-color: #5c5d5f;
+}
+
+.bg-lightgray{
+	background-color: #e2e2e2;
+}
+
+.bg-salmon{
+	background-color: #e4505c;
+}
+
+.bg-white{
+	background-color: #ffffff;
+}
+
+.line-yellow{
+	background: #efb21b;
+}
+
+.line-green{
+	background: #04a070;
+}
+
+.line-blue{
+	background: #58abdd;
+}
+
+.line-red{
+	background: #e94e4c;
+}
+
+.line-orange{
+	background: #e67b35;
+}
+
+/*textos*/
+.text-darkgray{
+	color: #2c2c2c;
+}
+
+.text-gray{
+	color: #5c5d5f;
+}
+
+.text-white{
+	color: #ffffff;
+}
+
+.text-red{
+	color: #e94e4c;
+}

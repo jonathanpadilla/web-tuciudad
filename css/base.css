@@ -1,0 +1,32 @@
+/*base*/
+#wrapper, .width-full{
+	width:100%;
+	position:relative;
+}
+
+.width-primary{
+	max-width: 950px;
+	margin: 0 auto;
+	padding:0 15px;
+}
+
+.padding-0{
+	padding:0 !important;
+}
+
+.width-container{
+	display: inline-block;
+}
+
+/*espacio*/
+.space-20{
+	height:20px;
+}
+
+.space-50{
+	height: 50px;
+}
+
+.space-100{
+	height: 100px;
+}
