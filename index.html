@@ -11,21 +11,49 @@
 	    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 	    <link rel="stylesheet" href="css/normalize/normalize.css">
 	    <link rel="stylesheet" href="css/base.css">
+	    <link rel="stylesheet" href="resources/ResponsiveMultiLevelMenu/css/component.css">
+	    <link rel="stylesheet" href="resources/ResponsiveMultiLevelMenu/css/custom.css">
 	    <link rel="stylesheet" href="css/responsive.css">
 	    <link rel="stylesheet" href="css/color.css">
-	    <link rel="stylesheet" href="css/menu.css">
 	    <link rel="stylesheet" href="css/style.css">
 
 	    <!--CAROUSEL-->
-	    <link rel="stylesheet" href="js/owl-carousel/owl.carousel.css">
-	    <link rel="stylesheet" href="js/owl-carousel/owl.theme.css">
+	    <link rel="stylesheet" href="resources/owl-carousel/owl.carousel.css">
+	    <link rel="stylesheet" href="resources/owl-carousel/owl.theme.css">
 
 	</head>
 
 	<body>
 
 		<div id="wrapper">
-			<a id="open-menu" href="#"><img src="image/btn-responsive-menu.png"></a>
+			<div class="main clearfix">
+				<div class="column">
+					<div id="dl-menu" class="dl-menuwrapper">
+						<button class="dl-trigger">Menu</button>
+						<ul class="dl-menu">
+							<li>
+								<a href="#">origen</a>
+							</li>
+							<li>
+								<a href="#">nosotros</a>
+							</li>
+							<li>
+								<a href="#">servicios</a>
+							</li>
+							<li>
+								<a href="#">planes</a>
+							</li>
+							<li>
+								<a href="#">clientes</a>
+							</li>
+							<li>
+								<a href="#">contacto</a>
+							</li>
+						</ul>
+					</div><!-- /dl-menuwrapper -->
+				</div>
+			</div>
+
 			<div class="width-full">
 				<div class="bg-darkgray">
 					<div class="width-primary">
@@ -255,11 +283,15 @@
 	</body>
 
 		<!--BASE-->
+		<script src="resources/ResponsiveMultiLevelMenu/js/modernizr.custom.js"></script>
 		<script src="js/jquery/jquery-3.1.1.min.js"></script>
+		<script src="resources/ResponsiveMultiLevelMenu/js/jquery.dlmenu.js"></script>
 		<script src="js/base.js"></script>
 
 		<script>
 			$(function(){
+
+				$( '#dl-menu' ).dlmenu();
 				 
 				$('#menu_principal ul li').hover(function(){
 					$(this).find('.uppercase-menu').css('width', '100%');
